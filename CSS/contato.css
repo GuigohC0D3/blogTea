@@ -5,7 +5,7 @@ body {
     background-color: #fdfdfd;
 }
 header {
-    background-color: #072e5c;
+    background-color: #0170bb;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -20,7 +20,7 @@ audio {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #c9d1f7;
+    background-color: #196ebd;
 }
 .about-container img {
     max-width: 100%;
@@ -31,9 +31,13 @@ audio {
 .about-content {
     margin-top: 20px;
 }
-h2 {
-    margin-top: 30px;
+h3 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -45,4 +49,11 @@ li {
 #dov {
     display: flex;
     justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
 }
